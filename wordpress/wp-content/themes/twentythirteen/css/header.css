@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+#head {
+	height: 125px;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#header-images{
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-left:  23px;
+	}
+	
+ul#header-images li {
+	display: inline;
+	padding-right: 40px;
+}
+

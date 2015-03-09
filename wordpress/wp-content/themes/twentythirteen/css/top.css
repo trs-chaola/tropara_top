@@ -1,0 +1,164 @@
+@CHARSET "ISO-8859-1";
+.content-area{
+	position: relative;
+	z-index: 2;
+	min-height: 500px;
+	background-image: url('../images/tropara_img/home/sand_bg.png');
+
+}
+.nav {
+	min-height: 80px;
+
+}
+.img3{
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+p{
+	margin: 15px;
+	margin-right: 15px;
+}
+.navbar {
+	display: table;
+	background-color: transparent;
+	background-image: url('../images/tropara_img/home/menu_bg.png');
+	background-repeat: no-repeat;
+  	margin-left: 15%;
+  	background-size: 965px 75px;
+  	max-width: 970px;
+}
+
+ul#navmenu{
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 25px; auto;
+	
+	}
+	
+ul#navmenu li {
+	display: inline;
+	margin: 0 auto;
+}
+#mvisual{
+	margin-left: 115px;
+	margin-top: 66px;
+	width: 921px;
+}
+
+
+.lower_content{
+	background-color: transparent;
+	min-height: 300px;
+	width: 913px;
+	margin-left: 229px;
+}
+.sidebar {
+	min-height: 80px;
+	display: inline-block;
+	width: 222px;
+	left: 0px;
+	float: left;
+}
+
+.side_bt {
+	display: table;
+	margin-left: -50px;
+}
+
+ul#bt_menu{
+	margin-left: 0px;
+	list-style: none;
+	margin: 0 auto;	
+	}
+	
+ul#bt_menu li {
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
+}
+.content{
+	width: 691px;;
+	display: inline-block;
+}
+#m_visual{
+	margin-left: 110px;
+	margin-top: -43px;
+	background-image: url('../images/tropara_img/home/mainVisual_bg.png');
+	background-repeat: no-repeat;
+}
+
+
+.first{
+	margin-top: 10px;
+	display: block;
+}
+.content_1{
+	position: relative;
+	z-index: 1;
+	width: 694px;
+}
+.content_2{
+	width: 694px;
+}
+.content_3{
+	width: 694px;
+}
+.content_1_bt{
+	position: relative;
+	z-index: 2;
+	float: right;
+	margin-top: -45px;
+}
+.first_space{
+	background-image: url('../images/tropara_img/home/white_bg_02.png');
+	display: block;
+	min-height: 50px;
+	margin-top: 10px;
+}
+.second{
+	margin-top: 10px;
+	display: block;
+}
+.content_2_bt{
+	position: relative;
+	z-index: 2;
+	float: right;
+	margin-top: -45px;
+}
+.second_space{
+	background-image: url('../images/tropara_img/home/white_bg_02.png');
+	display: block;
+	min-height: 50px;
+	margin-top: 10px;
+}
+.third{
+	margin-top: 10px;
+	display: block;
+}
+.content_3_bt{
+	position: relative;
+	z-index: 2;
+	float: right;
+	margin-top: -45px;
+}
+.third_space{
+	background-image: url('../images/tropara_img/home/white_bg_02.png');
+	display: block;
+	min-height: 50px;
+	margin-top: 10px;
+	clear: both;
+}
+#sample{
+	background-color: yellow;
+	height: 200px;
+	width: 100px;
+}
+
+
+
+
+
+
