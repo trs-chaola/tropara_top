@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+.site-footer{
+	clear: both;
+}
+#footer{
+	min-height: 250px;
+	max-width: 1800px;
+	background-color: transparent;
+	background-image: url('../images/tropara_img/footer/footer_bg.png');
+	overflow: hidden;
+	background-repeat: no-repeat;
+	padding: 0px;
+}	
+.site_f{
+	min-height: 174px;
+	width: 892px;
+	overflow: hidden;
+	margin-left: 224px;
+	width: 921px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	position: relative;
+	z-index: 2;
+}
+.first_f ul li{
+	color: white;
+	text-align: left;
+	padding: 5px;
+}
+.second_f ul li{
+	color: white;
+	text-align: left;
+	padding: 5px;
+}
+.third_f ul li{
+	color: white;
+	text-align: left;
+	padding: 5px;
+}
+.fourth_f ul li{
+	color: white;
+	text-align: left;
+	padding: 5px;
+}
+
+.first_f{
+	float: left;
+	width: 17%;
+}
+.second_f{
+	float: left;
+	width: 17%;
+}
+.third_f{
+	float: left;
+	width: 17%;
+}
+.fourth_f{
+	float: left;
+	width: 17%;
+}
+.fifth_f{
+	float: left;
+	width: 17%;
+}
+#m_footer{
+	width: 295px
+}
+#corals{
+	background-image: url('../images/tropara_img/footer/corals_bg.png');
+	height: 124px;
+	margin-left: 254px;
+	width: 892px;
+	margin-top: -124px;
+	position: relative;
+	z-index: 1;
+}

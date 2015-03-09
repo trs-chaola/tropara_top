@@ -13,10 +13,9 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
-
 get_header(); ?>
-
-	<div id="primary" class="content-area">
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/index.css" type="text/css">
+	<div id="primary" class="content-area" style="background-image: url(<?php bloginfo('template_url'); ?>/images/tropara_img/home/sand_bg.png);">
 		<div id="content" class="site-content" role="main">
 		<?php if ( have_posts() ) : ?>
 
