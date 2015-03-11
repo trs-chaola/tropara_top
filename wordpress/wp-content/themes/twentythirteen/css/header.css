@@ -1,6 +1,8 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "utf-8";
 #head {
 	height: 125px;
+	position: relative;
+	z-index: 2;
 }
 
 .table {
@@ -19,5 +21,11 @@ ul#header-images{
 ul#header-images li {
 	display: inline;
 	padding-right: 40px;
+}
+p#top_info{
+  	margin-bottom: -33px;
+ 	margin-top: 10px;
+ 	margin-left: 71px;
+ 	color: white;
 }
 

@@ -21,7 +21,11 @@ get_header(); ?>
 		</div>
 		
 		<div id="m_visual">
-			<image id="mvisual" src="<?php bloginfo('template_url'); ?>/images/tropara_img/home/mainVisual_img.png"></image>
+			<div id="slider">
+				<?php 
+   				 	echo do_shortcode("[metaslider id=38]"); 
+				?>
+			</div>
 		</div>
 
 		<div class="lower_content">
@@ -43,9 +47,56 @@ get_header(); ?>
 							<a href="#"><image class="content_1_bt" src="<?php bloginfo('template_url'); ?>/images/tropara_img/home/title_bt_01.png"></image></a>
 						</div>
 						<div class="first_space">
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+						
+						<?php
+						$args = array(
+								'category_name'      =>divenotice,
+								'year'     => $current_year,
+								'monthnum' => $current_month,
+								'order'    => 'DESC',
+								'limit'    => 4,
+						);
+						query_posts( $args );
+						
+						$postCount=0;
+						
+						while ( have_posts() ) : the_post();
+								$postCount=$postCount+1;
+						endwhile;
+						
+						$finalCount=$postCount;
+						$a=1;
+						
+						
+						while ( have_posts() ) : the_post();
+							if($a>4){
+								break;
+							}else{
+								if($a!=4){
+									echo '<p>';
+									the_time('Y/m/d');
+									echo '<u id="links">';
+									the_title();
+									echo '</u>';
+									echo '</p>';
+									echo '<hr id="line">';
+								}else{
+									echo '<p>';
+									the_time('Y/m/d');
+									echo '<u id="links">';
+									the_title();
+									echo '</u>';
+									echo '</p>';
+								}
+								$a++;
+							}
+						endwhile;
+
+						// Reset Query
+						wp_reset_query();
+						?>
+						
+
 						</div>
 					</div>
 					<div class="second">
@@ -54,9 +105,55 @@ get_header(); ?>
 							<a href="#"><image class="content_2_bt" src="<?php bloginfo('template_url'); ?>/images/tropara_img/home/title_bt_01.png"></image></a>
 						</div>
 						<div class="second_space">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+						<?php
+						$args = array(
+								'category_name'      => oceaninfo,
+								'year'     => $current_year,
+								'monthnum' => $current_month,
+								'order'    => 'DESC',
+								'limit'    => 4,
+						);
+						query_posts( $args );
+						
+						$postCount=0;
+						
+						while ( have_posts() ) : the_post();
+								$postCount=$postCount+1;
+						endwhile;
+						
+						$finalCount1=$postCount;
+						$b=1;
+						
+						
+						while ( have_posts() ) : the_post();
+							if($b>4){
+								break;
+							}else{
+								if($b!=4){
+									echo '<p>';
+									the_time('Y/m/d');
+									echo '<u id="links">';
+									the_title();
+									echo '</u>';
+									echo '</p>';
+									echo '<hr id="line">';
+								}else{
+									echo '<p>';
+									the_time('Y/m/d');
+									echo '<u id="links">';
+									the_title();
+									echo '</u>';
+									echo '</p>';
+									asdfasdfs;
+								}
+								$b++;
+							}
+						endwhile;
+						
+
+						// Reset Query
+						wp_reset_query();
+						?>
 						</div>
 					</div>
 					<div class="third">
@@ -67,9 +164,34 @@ get_header(); ?>
 						<div class="third_space">
 						<image class="img3" src="<?php bloginfo('template_url'); ?>/images/tropara_img/home/youtube_vid.png"></image>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. 
-							</p>
+							フィリピン セブ島 リロアンにある	<br>
+							ダイバーズ プ
+							チリゾート
+							<br>
+							【ビラ・トロピカル・パラダイス】 
+							<br>
+							<br>					
+							アポ・バリカサグ・スミロンは勿論、モアルボ<br>アル・シキホール・カシリスリーフまでカバー
+							<br>
+							します。
+							<br> 
+							2013年9月現在ダイビングは14エリア・４２ポ
+							<br>
+							イント（リロアンだけでも７ポイント）
+							<br> 
+							リゾートの前は海。徒歩１０歩で波打ちぎわ、
+							<br>
+							そこからボートが出るので超楽チン・ダイビン
+							<br>
+							グ。
+							<br>
+							お泊りは個性豊
+							かなトロパラコテージ（全室
+							<br>
+							オーシャンビュー・エアコン装備）がございま
+							<br>
+							す。
+						</p>
 						</div>
 					</div>
 				</div>

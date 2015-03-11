@@ -1,7 +1,8 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "utf-8";
 .content-area{
+	margin-top: -7px;
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 	min-height: 500px;
 	background-image: url('../images/tropara_img/home/sand_bg.png');
 
@@ -16,6 +17,7 @@
 	width: 300px;
 	margin-top: 20px;
 	margin-right: 20px;
+	margin-left: 35px;
 }
 p{
 	margin: 15px;
@@ -29,6 +31,7 @@ p{
   	margin-left: 15%;
   	background-size: 965px 75px;
   	max-width: 970px;
+  	margin-top: 0px;
 }
 
 ul#navmenu{
@@ -41,6 +44,7 @@ ul#navmenu{
 ul#navmenu li {
 	display: inline;
 	margin: 0 auto;
+	padding-left: -10px;
 }
 #mvisual{
 	margin-left: 115px;
@@ -65,7 +69,8 @@ ul#navmenu li {
 
 .side_bt {
 	display: table;
-	margin-left: -50px;
+	margin-left: -44px;
+	margin-top: 7px;
 }
 
 ul#bt_menu{
@@ -76,7 +81,7 @@ ul#bt_menu{
 	
 ul#bt_menu li {
 	margin: 0 auto;
-	padding: 10px;
+	padding: 5px;
 	display: block;
 }
 .content{
@@ -85,7 +90,7 @@ ul#bt_menu li {
 }
 #m_visual{
 	margin-left: 110px;
-	margin-top: -43px;
+	margin-top: -132px;
 	background-image: url('../images/tropara_img/home/mainVisual_bg.png');
 	background-repeat: no-repeat;
 }
@@ -112,11 +117,18 @@ ul#bt_menu li {
 	float: right;
 	margin-top: -45px;
 }
+#links {
+    text-decoration: underline;
+    margin-left: 30px;
+}
 .first_space{
-	background-image: url('../images/tropara_img/home/white_bg_02.png');
-	display: block;
+	background-color: white;
 	min-height: 50px;
-	margin-top: 10px;
+	margin-top: 7px;  
+	border-color: rgb(229, 217, 152);
+ 	border-style: solid;
+    border-width: 1px;
+	
 }
 .second{
 	margin-top: 10px;
@@ -129,10 +141,12 @@ ul#bt_menu li {
 	margin-top: -45px;
 }
 .second_space{
-	background-image: url('../images/tropara_img/home/white_bg_02.png');
-	display: block;
+	background-color: white;
 	min-height: 50px;
-	margin-top: 10px;
+	margin-top: 7px;;  
+	border-color: rgb(229, 217, 152);
+ 	border-style: solid;
+    border-width: 1px;
 }
 .third{
 	margin-top: 10px;
@@ -145,20 +159,39 @@ ul#bt_menu li {
 	margin-top: -45px;
 }
 .third_space{
-	background-image: url('../images/tropara_img/home/white_bg_02.png');
-	display: block;
+	background-color: white;
 	min-height: 50px;
-	margin-top: 10px;
-	clear: both;
+	margin-top: 7px;  
+	border-color: rgb(229, 217, 152);
+ 	border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
 }
 #sample{
 	background-color: yellow;
 	height: 200px;
 	width: 100px;
 }
-
-
-
-
-
+#links{
+	color: blue;
+}
+hr#line{
+	margin-left: 15px;
+	width: 662px;
+}
+div#slider{
+	background-image: url('../images/tropara_img/sliders/slider_bg.jpg');
+	margin-left: 116px;
+  	width: 911px;
+  	margin-top: 139px;
+  	height: 390px;
+  	background-repeat: no-repeat;
+  	
+}
+div#metaslider_container_38{
+  width: 872px;
+  margin-left: -81px;
+  margin-top: 0px;
+  padding-top: 13px;
+}
 

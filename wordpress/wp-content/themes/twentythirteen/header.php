@@ -36,6 +36,7 @@
 		<header id="masthead" class="site-header" role="banner">
 		<div id="head" style="background-image: url(<?php bloginfo('template_url'); ?>/images/tropara_img/headers/header_bg.png)">
 			<div class="table">
+				<p id="top_info">セブ リロアン ダイバーズ・リゾート VILLA TROPICAL PARADISE</p>
 				<ul id="header-images">
 					<li><image id="h_image" src="<?php bloginfo('template_url'); ?>/images/tropara_img/headers/tropara_logo.png"></image></li>
 					<li><image id="h_image" src="<?php bloginfo('template_url'); ?>/images/tropara_img/headers/fish_icon.png"></image></li>

@@ -1,4 +1,4 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "utf-8";
 .site-footer{
 	clear: both;
 }
@@ -17,8 +17,8 @@
 	overflow: hidden;
 	margin-left: 224px;
 	width: 921px;
-	margin-top: 50px;
-	margin-bottom: 0px;
+	margin-top: 15px;
+	margin-bottom: -40px;
 	position: relative;
 	z-index: 2;
 }
@@ -45,7 +45,7 @@
 
 .first_f{
 	float: left;
-	width: 17%;
+	width: 17%;	
 }
 .second_f{
 	float: left;
@@ -62,6 +62,8 @@
 .fifth_f{
 	float: left;
 	width: 17%;
+	margin-top: 20px;
+	
 }
 #m_footer{
 	width: 295px
@@ -74,4 +76,10 @@
 	margin-top: -124px;
 	position: relative;
 	z-index: 1;
+}
+p#foot_info{
+	position: relative;
+	z-index: 2;
+	color: white;
+	margin-left: 50px;
 }
